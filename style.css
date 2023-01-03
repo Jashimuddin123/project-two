@@ -1,0 +1,65 @@
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.boxfrom{
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+body{
+    background-color: #ccc;
+}
+.titleSmall{
+    font-size:20px ;
+}
+
+.formContainer{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 20px;
+
+    
+}
+.formcontrol{
+    display: flex;
+ flex-direction: column;
+}
+label{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+input,
+select,
+textarea{
+padding: 6px 10px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 15px;
+}
+input:focus{
+    outline-color: red;
+}
+.buttoncontainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+button{
+    background-color: red;
+    border: transparent solid 2px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: #ccc;
+    border: 2px solid;
+    color: black;
+    cursor: pointer;
+}
